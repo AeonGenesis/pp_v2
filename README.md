@@ -9,12 +9,10 @@ Portnummern wie folgt aufgeteilt:
 *   Die Ports mit den Nummern von 0 bis 1023 sind „well-known ports“. Sie bieten grundlegende  
     Standarddienste des Internets an. Die folgende Tabelle nennt einige Ports und Dienste:
 
-<table><tbody><tr><td>21</td><td>ftp</td></tr><tr><td>23</td><td>telnet</td></tr><tr><td>25</td><td>smtp</td></tr><tr><td>80</td><td>http</td></tr><tr><td>143</td><td>imap</td></tr></tbody></table>
+![image](https://user-images.githubusercontent.com/67957760/202873409-4b5bf0af-626c-49cb-a86f-3503d7160cd0.png)
 
 Die Ports mit den Nummern von 1024 bis 49151 sind „registered ports“. Sie sind bestimmten  
 herstellerspezifischen Diensten zugeordnet.
-
-![image](https://user-images.githubusercontent.com/67957760/202873406-40082f85-ec0b-45e3-9b76-a624e9873a6f.png)
 
 *   Die Ports mit den Nummern von 49152 bis 65535 sind „dynamic ports“. Sie können von jedem  
     Programmierer frei benutzt werden.  
