@@ -11,8 +11,6 @@ public class V2_a4_quantify {
 
     private static void abtast(double rate, double start, double end)
     {
-
-
         double n = 0;
         double result = 0; 
         int quantized = 0; 
