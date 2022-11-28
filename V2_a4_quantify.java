@@ -1,33 +1,30 @@
 public class V2_a4_quantify {
 
-
-
-
     public static void main(String[] args) {
-        abtast(0.1f, 2f, 4f);
+        abtast(0.1, 2, 4 );
     }
-    private static float funktion(float x) 
+    private static double funktion(double x) 
     {
-        float y =  20f * (x * x) - 100f * x + 129.5f;
+        double y =  20 * (x * x) - 100 * x + 129.5;
         return y; 
     }
 
-    private static void abtast(float rate, float start, float end)
+    private static void abtast(double rate, double start, double end)
     {
 
 
-        float n = 0f;
-        float result = 0f; 
+        double n = 0;
+        double result = 0; 
         int quantized = 0; 
         for(int i = 0; i < (int) (10*(end - start)+1); i++ )
         {
 
-            n = (float) i; 
+            n = (double) i; 
             result = funktion(start + (n * rate));
             quantized = (int) result;
             
             System.out.println("Für den x-Wert: "+ (start+(n*rate)) +  " beträgt der Funktionswert f(X): " + result + ". Quantisiert: " + quantized + ".");
-            if ((start + (n * rate)) == 2.5f)
+            if ((start + (n * rate)) == 2.5)
                 System.out.println("An dieser Stelle befindet sich ein Minimum. ");
             
         }
