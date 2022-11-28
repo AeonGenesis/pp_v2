@@ -1,8 +1,9 @@
 public class V2_a4_quantify {
 
     public static void main(String[] args) {
-
+        /*Abtastrate 0.1 in Intervall [2 bis 4] */
         abtast(0.1, 2, 4 ); //werte in abtast methode schicken
+
     }
     private static double funktion(double x) //f(x) methode
     {
