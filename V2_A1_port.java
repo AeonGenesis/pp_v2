@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class portNummern {
+public class V2_A1_port {
     public static void main(String[] args) {
         int port = getInt();
         if(port == -1) System.exit(0);

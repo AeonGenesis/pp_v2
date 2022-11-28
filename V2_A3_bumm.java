@@ -1,4 +1,4 @@
-public class bummSpiel {
+public class V2_A3_bumm {
     public static void main(String[] args) {
         eineSchleife();
         System.out.println("\n");
