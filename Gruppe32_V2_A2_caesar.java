@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class V2_A2_caesar {
+public class Gruppe32_V2_A2_caesar {
     
     public static void main(String[] args) throws IOException {
         
